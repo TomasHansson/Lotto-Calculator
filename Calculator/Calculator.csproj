@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73EA3774-427A-40C4-90F4-3417FA216C44}</ProjectGuid>
+    <ProjectGuid>{9D35C7C2-55C9-436A-B0AF-6119BA81802D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lotto</RootNamespace>
-    <AssemblyName>Lotto</AssemblyName>
+    <RootNamespace>Calculator</RootNamespace>
+    <AssemblyName>Calculator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
