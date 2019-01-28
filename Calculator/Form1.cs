@@ -191,12 +191,18 @@ namespace Calculator
 
         // ClearButton_Click: Resets the calculator.
         // Pre: -
-        // Post: TextBoxes and Booleans representing the state of the application has been reset to their default values.
+        // Post: TextBoxes and all properties representing the state of the application has been reset to their default values.
         private void ClearButton_Click(object sender, EventArgs e)
         {
             inputTextBox.Text = "0";
             previousInputTextBox.Text = "";
+            TermOne = 0;
+            TermTwo = 0;
+            PreviousTermTwo = 0;
+            Answer = 0;
+            PreviousAnswer = 0;
             PreviousCalulations = false;
+            OperatorType = '.';
             OperatorTypeChosen = false;
             LastInputWasOperator = false;
         }
