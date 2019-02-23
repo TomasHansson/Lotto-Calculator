@@ -12,6 +12,6 @@ calculations with the four basic numeric operators (/, *, -, +) and to
 repeat the previous operation on the result, if desired. Each equation is
 between two numbers only.
 
-• What I Learned:
+What I Learned:
 - The basics of Windows Forms.
 - Handling basic events and input validation through Windows Forms.
